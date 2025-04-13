@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #695b5b; */
+    background-image:url("images/background.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  .container {
+    /* background-color:antiquewhite; */
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba(114, 115, 129, 0.37);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    max-width: 90%;
+    text-align: center;
+  }
+  .question {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .options button {
+    display: block;
+    width: 100%;
+    margin: 10px 5px;
+    padding: 10px;
+    border-radius:10px;
+    font-size: 16px;
+
+  }
+  .timer {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color:beige;
+  }
+  .result {
+    font-size: 22px;
+    font-weight: bold;
+    color:rgba(241, 207, 10, 0.712);
+  }
